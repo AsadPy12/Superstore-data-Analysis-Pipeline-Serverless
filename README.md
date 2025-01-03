@@ -24,7 +24,7 @@ This project showcases a data analysis pipeline designed to analyze data from a 
 
 **Pipeline Components:**
 
-- **Azure DevOps:** Serves as the deployment platform for the project.
+- **Aws DevOps:** Serves as the deployment platform for the project.
 - **AWS S3:** Stores the raw data files as a data lake.
 - **AWS Glue:** Extracts, transforms, and loads (ETL) data from S3 into the Glue Catalog for easier querying.
 - **Glue Catalog:** Acts as a data dictionary, providing metadata about the data stored in S3.
@@ -33,7 +33,7 @@ This project showcases a data analysis pipeline designed to analyze data from a 
 **Workflow:**
 
 1. **Data Ingestion:** Raw data is uploaded to Azure DevOps.
-2. **Data Transfer:** Azure DevOps pushes the data to the S3 bucket.
+2. **Data Transfer:** Aws DevOps pushes the data to the S3 bucket.
 3. **Data Transformation:** AWS Glue ETL jobs process the data and load it into the Glue Catalog.
 4. **Data Analysis:** Users can query the data using Athena, generating insights and reports.
 
