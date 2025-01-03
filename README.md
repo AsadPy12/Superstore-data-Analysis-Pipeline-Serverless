@@ -1,6 +1,5 @@
 # Superstore-data-Analysis-Pipeline-(Serverless)
 
-- **Azure DevOps**
 - **AWS** 
     - **S3 bucket**
     - **AWS Glue**
