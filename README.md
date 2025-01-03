@@ -12,6 +12,7 @@
 This project showcases a data analysis pipeline designed to analyze data from a fictional super store. The pipeline utilizes various AWS services to streamline data processing and analysis.
 
 **Project Architecture:**
+
 ![img](./storeanalysispipeline.png)
 
 
